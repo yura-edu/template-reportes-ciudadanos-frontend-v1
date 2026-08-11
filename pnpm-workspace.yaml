@@ -1,0 +1,9 @@
+# Configuración de pnpm (desde pnpm 10 los ajustes ya no se leen del campo
+# "pnpm" del package.json: viven aquí).
+#
+# pnpm bloquea por defecto los scripts de instalación de las dependencias, y
+# aborta la instalación si encuentra alguno sin declarar. Estos dos necesitan
+# sus scripts para dejar listo su binario nativo.
+allowBuilds:
+  "@biomejs/biome": true
+  esbuild: true

@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "@types/node": "^22.10.0",
+    "@types/node": "^24.0.0",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.4",
@@ -27,7 +27,8 @@
     "vite": "^5.4.11",
     "vitest": "^2.1.8"
   },
-  "pnpm": {
-    "onlyBuiltDependencies": ["@biomejs/biome", "esbuild"]
+  "packageManager": "pnpm@11.21.0",
+  "engines": {
+    "node": ">=24"
   }
 }
